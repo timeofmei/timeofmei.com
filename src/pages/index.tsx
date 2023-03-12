@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { LinkButton } from "../components/button";
+import { LinkButton } from "@/components/button";
 import env from "../share/env";
 
 export default function Home() {
