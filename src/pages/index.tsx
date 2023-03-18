@@ -14,10 +14,10 @@ export default function Home() {
           <div className="rounded-full overflow-hidden w-40 h-40 relative">
             <Image fill={true} src={"/avatar.webp"} alt={"avatar"} />
           </div>
-          <LinkButton text="Memos" url="/memos" />
-          <LinkButton text="Blog" url="/blog" />
-          <LinkButton text="Projects" url="/projects" />
-          <LinkButton text="About" url="/about" />
+          <LinkButton text="Memos" url={env.url.memos} />
+          <LinkButton text="Blog" url={env.url.blog} />
+          <LinkButton text="Projects" url={env.url.projects} />
+          <LinkButton text="About" url={env.url.about} />
         </div>
       </main>
     </>
